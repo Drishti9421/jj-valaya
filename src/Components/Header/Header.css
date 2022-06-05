@@ -1,0 +1,54 @@
+.header_bottom{
+    text-align: center;
+}
+li{
+    list-style: none;
+    display:inline;
+    padding: 20px;
+    font-size: 10px;
+    font-weight: 600;
+}  
+.header_top{
+    align-items: center;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+p{
+    padding: 2px;
+    margin: 0;
+    font-size: 15px;
+    font-weight: 500;
+}
+h1{
+    font-family: 'Bodoni Moda', serif;
+    font-weight: 800;
+    font-size: 35px;
+    margin: 0;
+    padding-top: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.header{
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    color: white;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+.header_bottom:hover{
+    background-color: #f6f1ec;
+    color: black;
+}
+.header_bottom.links{
+    color: black;
+}
